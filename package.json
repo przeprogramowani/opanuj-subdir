@@ -2,12 +2,11 @@
   "name": "opanuj-subdir",
   "type": "module",
   "version": "0.0.1",
+  "workspaces": [
+    "projects/*"
+  ],
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build:ofe": "npm run build -w=projects/opanuj-frontend"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.8",

@@ -1,0 +1,16 @@
+{
+  "name": "opanuj-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
