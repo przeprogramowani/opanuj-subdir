@@ -6,7 +6,7 @@
     "projects/*"
   ],
   "scripts": {
-    "build:ofe": "npm run build -w=projects/opanuj-frontend"
+    "build:project": "npm run build -w=projects/example"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.8",
