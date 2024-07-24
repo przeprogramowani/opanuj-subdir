@@ -6,7 +6,7 @@
     "projects/*"
   ],
   "scripts": {
-    "build:project": "npm run build -w=projects/example"
+    "build:example": "npm run build -w=projects/example"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.8",
